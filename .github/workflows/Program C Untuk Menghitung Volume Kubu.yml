@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+printf("Program C Untuk Menghitung Volume Kubus\n");
+printf("---------------------------------------\n");
+float sisi, volume;
+printf("Masukkan nilai dari ketiga sisi kubus : ");
+scanf("%f", &sisi);
+volume = sisi * sisi * sisi;
+printf("---------------------------------------\n");
+printf("Hasil perhitungan volume kubus adalah %.2f", volume);
+printf("\n\n\n");
+return 0;
+}
